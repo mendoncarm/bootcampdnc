@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#principal {
+    width: 100%;
+    height: 100px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px #bdbdbd;
+
+}
+
+    #menu{
+        display:flex;
+        width: 45%;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 5%;
+    }
+
+    #principal div a{
+        font-family: 'Inter';
+        font-size: 25px;
+        font-weight: 600;
+        color: white;
+        text-decoration: none;
+    }
+
+    #principal div a:hover{
+        color: #cccc;
+    }
+
+    #principal button{
+        margin-right: 5%;
+        background: #0C70F2;
+        border: none;
+
+        height: 40px;
+        width: 80px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        color: #FFFFFF;
+        box-shadow: 3px 2px 4px rgba(12, 112, 242, 0.25);
+        cursor:pointer;
+    
+    }
+    #estilo-botao:hover{
+        color:#CCCC
+    }
+
+    #checkbox ul {
+        display:flex;
+        list-style-type: none;
+        margin:0px;
+        padding:0px;
+        justify-content:space-between;
+    }
+    #checkbox li{
+        display: inline-block;
+        font-size:20px;
+        font-weight: 600;
+        
+    }
+
+
+
+    section{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        width:100%;
+        height:1700px;
+        background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+        border: 1px solid #BABABA;
+    }
+    header{
+        font-family:'Inter';
+        color:white;
+    }
+
+    header h1{
+        text-transform:uppercase;
+        font-family:'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 80px;
+        line-height: 97px;
+        color: #FFFFFF;
+        margin-bottom:20px;
+        text-align:center;
+    }
+
+    header h2{
+        text-align:center;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        font-style:bold;
+
+        margin-bottom:100px;
+
+    }
+
+    header .invert{
+        background-color:black;
+        font-weight: bold;
+        padding:5px;
+    }
+    form {
+        font-family:'Inter';
+        color:white;
+        margin:5px;
+
+    }
+    .form-group{
+        margin-top:10px;
+        margin-bottom:10px;
+    }
+    form label{
+        font-weight:800;
+        font-size:30px;
+    }
+    form .digi{
+        font-family:'Inter';
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        width: 630px;
+        height: 56px;
+        border:none;
+    }
+    form input::placeholder{
+        color: rgba(57, 57, 57, 0.5);
+
+    }
+    form #pronto{
+        background: rgba(12, 112, 242, 0.9);
+        box-shadow: 0px 6px 4px rgba(12, 112, 242, 0.25);
+        border-radius: 10px;
+        border:none;
+        width:630px;
+        height:56px;
+        margin-top:86px;
+        color:white;
+        font-family:'Inter';
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 39px;
+        cursor:pointer;
+    }
+    form #pronto:hover{
+        color: #CCCC
+    }
+        
+@media only screen and (max-width: 800px){
+    body {
+        background-color:blue;
+    }
+}    
+
+   
+
+    
+    
